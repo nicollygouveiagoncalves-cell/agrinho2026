@@ -1,0 +1,132 @@
+[
+  {
+    "id": 1,
+    "question": "O que é agricultura sustentável?",
+    "options": [
+      "Produzir alimentos sem se preocupar com o meio ambiente",
+      "Produzir alimentos de forma que preserve os recursos naturais para as futuras gerações",
+      "Usar o máximo de agrotóxicos para aumentar a produção",
+      "Desmatar florestas para plantar mais"
+    ],
+    "correct": 1,
+    "explanation": "A agricultura sustentável busca equilibrar a produção de alimentos com a conservação dos recursos naturais, garantindo que as gerações futuras também possam produzir.",
+    "category": "Conceitos Básicos"
+  },
+  {
+    "id": 2,
+    "question": "Qual prática ajuda a preservar o solo na agricultura?",
+    "options": [
+      "Queimadas frequentes",
+      "Plantio direto e rotação de culturas",
+      "Uso excessivo de fertilizantes químicos",
+      "Deixar o solo exposto ao sol e à chuva"
+    ],
+    "correct": 1,
+    "explanation": "O plantio direto e a rotação de culturas protegem o solo da erosão, mantêm sua fertilidade e reduzem o uso de insumos químicos.",
+    "category": "Solo"
+  },
+  {
+    "id": 3,
+    "question": "O que é o Código Florestal Brasileiro?",
+    "options": [
+      "Uma lei que proíbe toda atividade agrícola",
+      "Uma lei que regula o uso da terra, protegendo áreas de preservação e permitindo a produção agrícola",
+      "Um documento que autoriza o desmatamento total",
+      "Uma norma apenas para empresas madeireiras"
+    ],
+    "correct": 1,
+    "explanation": "O Código Florestal (Lei 12.651/2012) estabelece regras para o uso do solo, protege as Áreas de Preservação Permanente (APPs) e as Reservas Legais, equilibrando produção e conservação.",
+    "category": "Legislação"
+  },
+  {
+    "id": 4,
+    "question": "O que é a Reserva Legal em uma propriedade rural?",
+    "options": [
+      "Uma área onde o agricultor pode construir sua casa",
+      "Uma área da propriedade que deve ser mantida com vegetação nativa",
+      "Um depósito de máquinas agrícolas",
+      "Uma área destinada exclusivamente ao plantio de soja"
+    ],
+    "correct": 1,
+    "explanation": "A Reserva Legal é uma área obrigatória dentro da propriedade rural que deve ser preservada com vegetação nativa, contribuindo para a biodiversidade e o equilíbrio ambiental.",
+    "category": "Legislação"
+  },
+  {
+    "id": 5,
+    "question": "Qual é o papel das florestas para a agricultura?",
+    "options": [
+      "As florestas não têm relação com a agricultura",
+      "As florestas regulam o clima, protegem nascentes e garantem chuvas para as lavouras",
+      "As florestas apenas ocupam espaço que poderia ser usado para plantar",
+      "As florestas atraem pragas para as plantações"
+    ],
+    "correct": 1,
+    "explanation": "As florestas são fundamentais para a agricultura: regulam o ciclo das chuvas, protegem nascentes e rios, reduzem a temperatura e servem de habitat para polinizadores essenciais.",
+    "category": "Meio Ambiente"
+  },
+  {
+    "id": 6,
+    "question": "O que é o manejo integrado de pragas (MIP)?",
+    "options": [
+      "Usar apenas agrotóxicos para eliminar todas as pragas",
+      "Combinar diferentes métodos de controle para reduzir pragas com menor impacto ambiental",
+      "Ignorar as pragas e esperar que desapareçam sozinhas",
+      "Queimar toda a lavoura quando aparecem pragas"
+    ],
+    "correct": 1,
+    "explanation": "O MIP combina controle biológico, cultural, mecânico e químico de forma equilibrada, reduzindo o uso de agrotóxicos e preservando insetos benéficos como abelhas e predadores naturais.",
+    "category": "Produção"
+  },
+  {
+    "id": 7,
+    "question": "Por que as abelhas são importantes para a agricultura?",
+    "options": [
+      "Apenas produzem mel, sem relação com as plantações",
+      "São responsáveis pela polinização de grande parte dos alimentos que consumimos",
+      "São prejudiciais às lavouras",
+      "Servem apenas como atração turística"
+    ],
+    "correct": 1,
+    "explanation": "As abelhas polinizam cerca de 70% das culturas alimentares do mundo. Sem elas, a produção de frutas, legumes e sementes seria drasticamente reduzida.",
+    "category": "Biodiversidade"
+  },
+  {
+    "id": 8,
+    "question": "O que é a agricultura familiar?",
+    "options": [
+      "Grandes fazendas com produção industrial",
+      "Produção realizada em pequenas propriedades, com mão de obra da própria família",
+      "Apenas plantações de flores para decoração",
+      "Agricultura feita exclusivamente por robôs"
+    ],
+    "correct": 1,
+    "explanation": "A agricultura familiar é responsável por mais de 70% dos alimentos consumidos no Brasil. É praticada em pequenas propriedades com gestão e trabalho da própria família.",
+    "category": "Conceitos Básicos"
+  },
+  {
+    "id": 9,
+    "question": "O que é a irrigação eficiente?",
+    "options": [
+      "Usar a maior quantidade possível de água nas plantações",
+      "Usar a quantidade certa de água no momento certo, evitando desperdício",
+      "Irrigar apenas quando chover muito",
+      "Não usar água nas plantações"
+    ],
+    "correct": 1,
+    "explanation": "A irrigação eficiente, como o gotejamento, entrega água diretamente às raízes das plantas, economizando até 50% de água em comparação com métodos tradicionais.",
+    "category": "Recursos Hídricos"
+  },
+  {
+    "id": 10,
+    "question": "O que significa 'agronegócio sustentável'?",
+    "options": [
+      "Produzir o máximo possível sem nenhuma preocupação ambiental",
+      "Integrar produção agrícola, pecuária e florestal de forma que gere lucro e preserve o meio ambiente",
+      "Exportar produtos agrícolas para outros países",
+      "Usar apenas tecnologias antigas na produção"
+    ],
+    "correct": 1,
+    "explanation": "O agronegócio sustentável busca integrar produtividade e responsabilidade ambiental, usando tecnologias como o sistema Integração Lavoura-Pecuária-Floresta (ILPF) para maximizar resultados com menor impacto.",
+    "category": "Produção"
+  }
+]

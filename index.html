@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agro Forte Quiz – Equilíbrio entre Produção e Meio Ambiente</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== TELA INICIAL ===== -->
+  <div id="screen-start" class="screen active">
+    <div class="start-card">
+      <div class="logo-area">
+        <div class="logo-icon">🌱</div>
+        <span class="badge">Projeto Agrinho</span>
+      </div>
+      <h1>Agro Forte</h1>
+      <p class="subtitle">Equilíbrio entre Produção e Meio Ambiente</p>
+      <p class="description">
+        Teste seus conhecimentos sobre agricultura sustentável, preservação ambiental
+        e o equilíbrio entre produzir alimentos e cuidar do planeta!
+      </p>
+      <div class="info-grid">
+        <div class="info-item">
+          <span class="info-icon">❓</span>
+          <span>10 Perguntas</span>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">⏱️</span>
+          <span>20s por questão</span>
+        </div>
+        <div class="info-item">
+          <span class="info-icon">🏆</span>
+          <span>Pontuação Final</span>
+        </div>
+      </div>
+      <button id="btn-start" class="btn btn-primary">
+        🚀 Começar o Quiz
+      </button>
+    </div>
+    <div class="floating-leaves">
+      <span class="leaf l1">🍃</span>
+      <span class="leaf l2">🌿</span>
+      <span class="leaf l3">🍀</span>
+      <span class="leaf l4">🌾</span>
+      <span class="leaf l5">🍃</span>
+    </div>
+  </div>
+
+  <!-- ===== TELA DO QUIZ ===== -->
+  <div id="screen-quiz" class="screen">
+    <div class="quiz-container">
+
+      <!-- Header -->
+      <div class="quiz-header">
+        <div class="progress-info">
+          <span id="question-counter">Questão 1 de 10</span>
+          <span id="category-badge" class="category-tag">Categoria</span>
+        </div>
+        <div class="score-display">
+          <span class="score-icon">⭐</span>
+          <span id="current-score">0</span> pts
+        </div>
+      </div>
+
+      <!-- Barra de progresso -->
+      <div class="progress-bar-wrapper">
+        <div id="progress-bar" class="progress-bar"></div>
+      </div>
+
+      <!-- Timer -->
+      <div class="timer-wrapper">
+        <div id="timer-bar" class="timer-bar"></div>
+        <span id="timer-text" class="timer-text">20</span>
+      </div>
+
+      <!-- Pergunta -->
+      <div class="question-card">
+        <p id="question-text" class="question-text">Carregando pergunta...</p>
+      </div>
+
+      <!-- Opções -->
+      <div id="options-grid" class="options-grid">
+        <!-- Geradas via JS -->
+      </div>
+
+      <!-- Feedback -->
+      <div id="feedback-box" class="feedback-box hidden">
+        <div id="feedback-icon" class="feedback-icon"></div>
+        <div id="feedback-text" class="feedback-text"></div>
+        <button id="btn-next" class="btn btn-next">Próxima →</button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ===== TELA DE RESULTADO ===== -->
+  <div id="screen-result" class="screen">
+    <div class="result-card">
+      <div id="result-emoji" class="result-emoji">🏆</div>
+      <h2 id="result-title">Parabéns!</h2>
+      <p id="result-subtitle" class="result-subtitle"></p>
+
+      <div class="score-circle">
+        <svg viewBox="0 0 120 120" class="circle-svg">
+          <circle cx="60" cy="60" r="54" class="circle-bg"/>
+          <circle cx="60" cy="60" r="54" id="circle-progress" class="circle-fill"/>
+        </svg>
+        <div class="score-inner">
+          <span id="final-score">0</span>
+          <small>/ 1000</small>
+        </div>
+      </div>
+
+      <div class="stats-grid">
+        <div class="stat-item correct-stat">
+          <span class="stat-number" id="stat-correct">0</span>
+          <span class="stat-label">✅ Acertos</span>
+        </div>
+        <div class="stat-item wrong-stat">
+          <span class="stat-number" id="stat-wrong">0</span>
+          <span class="stat-label">❌ Erros</span>
+        </div>
+        <div class="stat-item time-stat">
+          <span class="stat-number" id="stat-time">0s</span>
+          <span class="stat-label">⏱️ Tempo médio</span>
+        </div>
+      </div>
+
+      <p id="result-message" class="result-message"></p>
+
+      <div class="result-buttons">
+        <button id="btn-restart" class="btn btn-primary">🔄 Jogar Novamente</button>
+        <button id="btn-review" class="btn btn-secondary">📋 Ver Respostas</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== TELA DE REVISÃO ===== -->
+  <div id="screen-review" class="screen">
+    <div class="review-container">
+      <div class="review-header">
+        <h2>📋 Revisão das Respostas</h2>
+        <button id="btn-back" class="btn btn-secondary">← Voltar</button>
+      </div>
+      <div id="review-list" class="review-list">
+        <!-- Gerado via JS -->
+      </div>
+    </div>
+  </div>
+
+  <script src="quiz.js"></script>
+</body>
+</html>
